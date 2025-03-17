@@ -119,7 +119,7 @@ void dfs(int s, vector<bool> &visited, vector<vector<int>> &adj){
  
 // #define int long long
 const int inf = 2e9; 
- 
+
 void solve(){
     // Observation [...]
     /* [here] */
@@ -128,7 +128,13 @@ void solve(){
     // $0 //Your final cursor position is this
 
 }
- 
+
+/*
+ *  Testcase-2: the notorious trial.
+ *  WA today, maybe AC tomorrow—if the debugging gods smile on me.
+ *  Onward, O coder!
+ */
+
 int32_t main(){
     // freopen("input.in", "r", stdin);
     // freopen("output.out", "w", stdout);
