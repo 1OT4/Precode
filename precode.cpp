@@ -1,14 +1,17 @@
-/*====================================================================
- ██▓ ▒█████  ▄▄▄█████▓ ▄▄▄             Competitive Programming Template
-▓██▒▒██▒  ██▒▓  ██▒ ▓▒▒████▄           Author   : Iota (1OT4)
-▒██▒▒██░  ██▒▒ ▓██░ ▒░▒██  ▀█▄         Github   : github.com/1OT4
-░██░▒██   ██░░ ▓██▓ ░ ░██▄▄▄▄██        Codeforces: codeforces.com/profile/1ota
-░██░░ ████▓▒░  ▒██▒ ░  ▓█   ▓██▒       Discord  : _1ota
-░▓  ░ ▒░▒░▒░   ▒ ░░    ▒▒   ▓▒█░       Created  : YYYY-MM-DD
- ▒ ░  ░ ▒ ▒░     ░      ▒   ▒▒ ░       Language : C++17 / C++20
- ▒ ░░ ░ ░ ▒    ░        ░   ▒          Template : Standard Fast I/O + Macros
- ░      ░ ░                 ░  ░       Purpose  : CP / Contest / Practice
-====================================================================*/
+/*
+ █████    ███████    ███████████   █████████       Competitive Programming Template
+░░███   ███░░░░░███ ░█░░░███░░░█  ███░░░░░███       Author    : Iota (1OT4)
+ ░███  ███     ░░███░   ░███  ░  ░███    ░███       Handle    : 1ota (Codeforces/CodeChef)
+ ░███ ░███      ░███    ░███     ░███████████       Template  : CP Boilerplate v1.0
+ ░███ ░███      ░███    ░███     ░███░░░░░███       Language  : C++20 (GCC/Clang Optimized)
+ ░███ ░░███     ███     ░███     ░███    ░███       Compiler  : g++ -std=c++20 -O2 -Wall -Wextra
+ █████ ░░░███████░      █████    █████   █████      Shortcut  : cf-template.cpp
+░░░░░    ░░░░░░░       ░░░░░    ░░░░░   ░░░░░       GitHub    : github.com/1OT4/cp-templates
+
+─────────────────────────────────────────────────────────────────────────────
+     ⚔️  Let the code battle begin! May the bugs tremble in fear.
+─────────────────────────────────────────────────────────────────────────────
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
