@@ -116,7 +116,10 @@ void dfs(int s, vector<bool> &visited, vector<vector<int>> &adj){
     else visited[s] = true;
     for (auto u : adj[s]) dfs(u, visited, adj);
 }
- 
+
+const vector<pii> nearby{{1, 0}, {0, 1}, {0, -1}, {-1, 0}}; // diagonal exclusive
+const vector<pii> nearbies{{1, 0}, {0, 1}, {0, -1}, {-1, 0}, {1, 1}, {1, -1}, {-1, 1}, {-1, -1}}; // diagonal inclusive
+
 // #define int long long
 const int inf = 2e9; 
 
