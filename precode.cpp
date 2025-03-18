@@ -1,3 +1,15 @@
+/*====================================================================
+ ██▓ ▒█████  ▄▄▄█████▓ ▄▄▄             Competitive Programming Template
+▓██▒▒██▒  ██▒▓  ██▒ ▓▒▒████▄           Author   : Iota (1OT4)
+▒██▒▒██░  ██▒▒ ▓██░ ▒░▒██  ▀█▄         Github   : github.com/1OT4
+░██░▒██   ██░░ ▓██▓ ░ ░██▄▄▄▄██        Codeforces: codeforces.com/profile/1ota
+░██░░ ████▓▒░  ▒██▒ ░  ▓█   ▓██▒       Discord  : _1ota
+░▓  ░ ▒░▒░▒░   ▒ ░░    ▒▒   ▓▒█░       Created  : YYYY-MM-DD
+ ▒ ░  ░ ▒ ▒░     ░      ▒   ▒▒ ░       Language : C++17 / C++20
+ ▒ ░░ ░ ░ ▒    ░        ░   ▒          Template : Standard Fast I/O + Macros
+ ░      ░ ░                 ░  ░       Purpose  : CP / Contest / Practice
+====================================================================*/
+
 #include <bits/stdc++.h>
 using namespace std;
  
