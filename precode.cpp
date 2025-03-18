@@ -39,7 +39,29 @@ auto Maximum = [](const auto &a, const auto &b){return max(a, b);};
 auto XorOperation = [](const auto &a, const auto &b){return (a^b);};
 auto ModAddition = [](const auto &a, const auto &b){return (a + b) % mod;};
 auto ModMultiply = [](const auto &a, const auto &b){return (a % mod)*(b % mod) % mod;};
- 
+
+struct dsu {
+    vector<int> parent, size;
+
+    dsu(int n) : parent(n), size(n, 1) {
+        for (int i = 0; i < n; i++) parent[i] = i;
+    }
+    
+    int find(int v) {
+        if (parent[v] != v) parent[v] = find(parent[v]);
+        return parent[v];
+    }
+    
+    void merge(int u, int v) {
+        int pu = find(u), pv = find(v);
+        if (pu == pv) return;
+        if (size[pu] < size[pv]) swap(pu, pv);
+        parent[pv] = pu, size[pu] += size[pv];
+    }
+    
+    int componentSize(int v) { return size[find(v)]; }
+};
+
 template <typename var>
 struct SegTree{
     int n;
