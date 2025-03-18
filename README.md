@@ -1,2 +1,1 @@
-# Precode
-Competitive programming precode template by Iota.
+My competitive programming templates and tricks in c++.
