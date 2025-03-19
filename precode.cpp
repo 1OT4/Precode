@@ -40,10 +40,10 @@ auto XorOperation = [](const auto &a, const auto &b){return (a^b);};
 auto ModAddition = [](const auto &a, const auto &b){return (a + b) % mod;};
 auto ModMultiply = [](const auto &a, const auto &b){return (a % mod)*(b % mod) % mod;};
 
-struct dsu {
+struct DSU {
     vector<int> parent, size;
 
-    dsu(int n) : parent(n), size(n, 1) {
+    DSU(int n) : parent(n), size(n, 1) {
         for (int i = 0; i < n; i++) parent[i] = i;
     }
     
