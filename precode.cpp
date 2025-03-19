@@ -5,7 +5,7 @@
  ░███ ░███      ░███    ░███     ░███████████       Template  : CP Boilerplate v1.0
  ░███ ░███      ░███    ░███     ░███░░░░░███       Language  : C++20 (GCC/Clang Optimized)
  ░███ ░░███     ███     ░███     ░███    ░███       Compiler  : g++ -std=c++20 -O2 -Wall -Wextra
- █████ ░░░███████░      █████    █████   █████      Shortcut  : cf-template.cpp
+ █████ ░░░███████░      █████    █████   █████      Shortcut  : precode.cpp
 ░░░░░    ░░░░░░░       ░░░░░    ░░░░░   ░░░░░       GitHub    : github.com/1OT4/cp-templates
 
 ─────────────────────────────────────────────────────────────────────────────
