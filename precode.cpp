@@ -16,11 +16,15 @@
 #include <bits/stdc++.h>
 using namespace std;
  
+#ifndef ONLINE_JUDGE
 vector<string> DBGc{ "\033[0m", "\033[36m", "\033[33m", "\033[35m" }; // Debugging colors
 void dbg_out() { cout << DBGc[0] << endl; }
 template<typename Head, typename... Tail>
 void dbg_out(Head H, Tail... T) { cout << DBGc[3] << H; if(sizeof...(T)) cout << ", "; dbg_out(T...); }
 #define dbg(...) cout << endl << DBGc[1] << "[line" << ":" << __LINE__ << "] " << DBGc[2] << #__VA_ARGS__ << " = ", dbg_out(__VA_ARGS__)
+#else
+#define dbg(...) void(false)
+#endif
  
 #define int64 long long
 #define endl "\n"
