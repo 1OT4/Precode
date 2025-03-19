@@ -2,7 +2,7 @@
  █████    ███████    ███████████   █████████       Competitive Programming Template
 ░░███   ███░░░░░███ ░█░░░███░░░█  ███░░░░░███       Author    : Iota (1OT4)
  ░███  ███     ░░███░   ░███  ░  ░███    ░███       Handle    : 1ota (Codeforces)
- ░███ ░███      ░███    ░███     ░███████████       Template  : CP Boilerplate v1.0
+ ░███ ░███      ░███    ░███     ░███████████       Template  : CP Boilerplate v1.2
  ░███ ░███      ░███    ░███     ░███░░░░░███       Language  : C++20 (GCC/Clang Optimized)
  ░███ ░░███     ███     ░███     ░███    ░███       Compiler  : g++ -std=c++20 -O2 -Wall -Wextra
  █████ ░░░███████░      █████    █████   █████      Shortcut  : precode.cpp
