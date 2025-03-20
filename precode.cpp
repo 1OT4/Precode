@@ -64,7 +64,7 @@ struct DSU {
         parent[pv] = pu, size[pu] += size[pv];
     }
     
-    int componentSize(int v) { return size[find(v)]; }
+    int getSize(int v) { return size[find(v)]; }
 };
 
 template <typename var>
